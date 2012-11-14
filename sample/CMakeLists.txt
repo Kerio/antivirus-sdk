@@ -1,0 +1,5 @@
+PROJECT(avir_sample)
+cmake_minimum_required(VERSION 2.8)
+INCLUDE_DIRECTORIES("." "../api/")
+ADD_LIBRARY(avir_sample SHARED avPlugin.c avName.h ../api/avPlugin.h ../api/avCommon.c ../api/avCommon.h ../api/avApi.h)
+SET_TARGET_PROPERTIES(avir_sample PROPERTIES PREFIX "" COMPILE_FLAGS "-Wall")

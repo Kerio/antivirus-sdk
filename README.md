@@ -150,6 +150,8 @@ Run chosen test simply by entering its number into command line.
 
 Note that every configuration of plugin (ip address, port, etc.) must be done via default configuration inside plugin, it will not be overwritten by tests. That's a limitation of tests, Kerio products will provide the configuration values as described above.
 
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/). This product includes software written by Tim Hudson (tjh@cryptsoft.com).
+
 ## Copyright
 
 Copyright © 1997-2012 Kerio Technologies s.r.o.

@@ -17,30 +17,30 @@ We successfully compiled it on Debian GNU/Linux 6.0 and CentOS 6.3.
 
 ## How to compile
 
-1. You need a 32-bit compiler. The easiest way is to use an i386 (not x64) Linux distribution.
-2. Get CMake build tool.
+* You need a 32-bit compiler. The easiest way is to use an i386 (not x64) Linux distribution.
+* Get CMake build tool.
 
    **NOTE:** We tested version 2.8.7
    * [Download CMake](http://www.cmake.org/HTML/Download.html), build and install
    * Or install a package, e.g. on Debian
 
-         apt-get install cmake        
+			apt-get install cmake        
     
-3. Get Boost libraries. (Only for ClamAV plugin, not needed for sample.)
+* Get Boost libraries. (Only for ClamAV plugin, not needed for sample.)
 
    **NOTE:** We tested versions 1.48 and 1.51
    * [Download Boost](http://www.boost.org/users/history/version_1_51_0.html), build and install. 
    * Set environment variables:
 
-         export BOOST_INCLUDEDIR=/usr/local/include
-         export BOOST_LIBRARYDIR=/usr/local/lib
+			export BOOST_INCLUDEDIR=/usr/local/include
+			export BOOST_LIBRARYDIR=/usr/local/lib
 
    * Or install packages, e.g. on Debian:
 
-         apt-get install libboost1.48-dev libboost-thread1.48-dev libboost-filesystem1.48-dev libboost-system1.48-dev libboost-date-time1.48-dev libboost-regex1.48-dev libboost-chrono1.48-dev
+			apt-get install libboost1.48-dev libboost-thread1.48-dev libboost-filesystem1.48-dev libboost-system1.48-dev libboost-date-time1.48-dev libboost-regex1.48-dev libboost-chrono1.48-dev
 
-4. Run `cmake .` inside plugin's source directory (where `CMakeLists.txt` resides) -- in `clam/` or in `sample/`.
-5. Build binary using `make`.
+* Run `cmake .` inside plugin's source directory (where `CMakeLists.txt` resides) -- in `clam/` or in `sample/`.
+* Build binary using `make`.
 
 ## Installation
 
@@ -156,7 +156,7 @@ This product includes software developed by the OpenSSL Project for use in the O
 
 Copyright © 1997-2012 Kerio Technologies s.r.o.
 
-Licensed and distributed under the New BSD License
+Licensed and distributed under the New BSD License.
 
 ## License
 
@@ -183,5 +183,5 @@ Licensed and distributed under the New BSD License
     LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
     ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
     (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 

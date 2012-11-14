@@ -154,7 +154,7 @@ Note that every configuration of plugin (ip address, port, etc.) must be done vi
 
 Copyright © 1997-2012 Kerio Technologies s.r.o.
 
-Licensed and distributed under the New BSD License
+Licensed and distributed under the New BSD License.
 
 ## License
 
@@ -181,5 +181,5 @@ Licensed and distributed under the New BSD License
     LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
     ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
     (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
-    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 

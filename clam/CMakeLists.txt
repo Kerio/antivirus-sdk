@@ -19,3 +19,5 @@ if(Boost_FOUND)
 	SET_TARGET_PROPERTIES(avir_clam PROPERTIES PREFIX "" COMPILE_FLAGS "-Wall")
     target_link_libraries(avir_clam ${Boost_LIBRARIES})
 endif()
+
+SET_TARGET_PROPERTIES(avir_clam PROPERTIES COMPILE_FLAGS "-m32" LINK_FLAGS "-m32")

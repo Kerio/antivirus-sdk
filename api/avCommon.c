@@ -224,7 +224,7 @@ int pluginInitWrapper(AV_LOG_CALLBACK_NEW log_callback)
  * \param version (unsigned int *) API version
  * \return (extern "C" DLL_EXPORT avir_plugin_extended_thread_iface*) interface structure
  */
-extern avir_plugin_extended_thread_iface* get_plugin_extended_iface(unsigned int* version) 
+extern DLL_EXPORT avir_plugin_extended_thread_iface* get_plugin_extended_iface(unsigned int* version) 
 {
     static avir_plugin_extended_thread_iface syncInterface = {
         getPluginInfo,

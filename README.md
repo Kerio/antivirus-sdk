@@ -44,7 +44,7 @@ We successfully compiled it on Debian GNU/Linux 6.0 and CentOS 6.3.
 
 ## Installation
 
-Once you compile the plugin (`avir_*.so`), copy it to `/opt/kerio/mailserver/plugin/avirs/` (Kerio Connect) or `/opt/kerio/winroute/avirplugins/` (Kerio Control), and run the administration console. You may want to change the default settings in (`Antivirus -> Select antivirus... -> Options...`). Then start the plugin in the administration console.
+Once you compile the plugin (`avir_*.so`), copy it to `/opt/kerio/mailserver/plugin/avserver/avirs/` (Kerio Connect) or `/opt/kerio/winroute/avirplugins/` (Kerio Control), and run the administration console. You may want to change the default settings in (`Antivirus -> Select antivirus... -> Options...`). Then start the plugin in the administration console.
 
 See [ClamAV Kerio KB article](http://kb.kerio.com/article.php?id=282) for further instructions.
 
